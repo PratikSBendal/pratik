@@ -8,6 +8,10 @@
 }
 
 @media only screen and (max-width: 767px) {
+header .scrolldown
+{
+ display: block !important;
+}
   #contact button.submit {
     margin: -37px 0 53px 0;
   }
@@ -33,4 +37,5 @@
   float: left !important;
   color: #ebeeee !important;
 }
+
 }
