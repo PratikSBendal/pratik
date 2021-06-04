@@ -1,10 +1,36 @@
-#contact button.submit{
-    margin-top: -16px !important;
-
+#contact button.submit {
+  margin-top: -16px !important;
 }
-@media only screen and (max-width: 767px)
+.get-in-touch
 {
-    #contact button.submit {
-        margin: -37px 0 53px 0;
-    }
+  color: white;
+    font: 38px/60px 'opensans-bold', sans-serif;
+}
+
+@media only screen and (max-width: 767px) {
+  #contact button.submit {
+    margin: -37px 0 53px 0;
+  }
+  #about .profile-pic {
+    display: block !important;
+  }
+  #testimonials .header-col h1:before {
+    content: "\f10d";
+  }
+  .profile-image-pic
+  {
+    text-align: -webkit-center;
+    margin-bottom: 39px;
+}
+#contact h1:before
+{
+  font-family: 'FontAwesome' !important;
+  content: "\f0e0" !important;
+  padding-right: 10px !important;
+  font-size: 72px !important;
+  line-height: 72px !important;
+  text-align: left !important;
+  float: left !important;
+  color: #ebeeee !important;
+}
 }

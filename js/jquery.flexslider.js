@@ -807,6 +807,7 @@
     // SLIDE:
     slider.setProps = function(pos, special, dur) {
       var target = (function() {
+        
         var posCheck = (pos) ? pos : ((slider.itemW + slider.vars.itemMargin) * slider.move) * slider.animatingTo,
             posCalc = (function() {
               if (carousel) {
