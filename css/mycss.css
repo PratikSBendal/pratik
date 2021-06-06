@@ -6,7 +6,16 @@
   color: white;
     font: 38px/60px 'opensans-bold', sans-serif;
 }
-
+.my-works
+{
+  height: 195px;
+  width: max-content;
+}
+.my-work-modal
+{
+  height: 350px;
+  width: max-content;
+}
 @media only screen and (max-width: 767px) {
 header .scrolldown
 {
