@@ -161,6 +161,9 @@ header .scrolldown
 
 @media only screen and (max-width: 480px)
 {
+  .video-size {
+    width: 358px;
+  }
   header .banner-text h1
   {
     font-size: 35px !important;
