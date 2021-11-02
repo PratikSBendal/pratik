@@ -113,6 +113,10 @@
 .plugins a:hover {
   color: #d63031;
 }
+.video-size
+{
+  width: 470px;
+}
 /*# sourceMappingURL=my.css.map */
 @media only screen and (max-width: 767px) {
 header .scrolldown
@@ -144,8 +148,17 @@ header .scrolldown
   float: left !important;
   color: #ebeeee !important;
 }
-
+.video-size{
+  width: 300px;
 }
+}
+@media only screen and (max-width: 1045px){
+  .video-size
+  {
+    width: 462px;
+  }
+}
+
 @media only screen and (max-width: 480px)
 {
   header .banner-text h1
