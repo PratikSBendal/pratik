@@ -159,6 +159,13 @@ header .scrolldown
   }
 }
 
+@media only screen and (max-width: 360px){
+  .video-size
+  {
+    width: 315px !important ;
+  }
+}
+
 @media only screen and (max-width: 480px)
 {
   .video-size {
